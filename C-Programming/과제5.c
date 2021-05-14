@@ -161,7 +161,7 @@ void CloseAccount() {
 		accountID[full] = 0;
 	}
 	printf("구좌를 성공적으로 닫았습니다.\n\n");
-	
+
 }
 
 void MakeAccount() {
@@ -238,7 +238,7 @@ void Getout() {
 			break;
 		}
 	}
-	if (exist == 0) 
+	if (exist == 0)
 		printf("해당 구좌가 없습니다.\n\n");
 	else if (minus_balance < balance[temp]) {
 		printf("원하시는 출금액 %d가 잔액보다 많습니다.\n", minus_balance);
@@ -254,7 +254,7 @@ void Getout() {
 		printf("%d원이 출금되었습니다.\n\n",minus_balance);
 	}
 
-	
+
 }
 void Sort() {
 	int j, time = 1, copy;
@@ -350,6 +350,7 @@ void Printbal() {
 	}
 	if (exist == 0) printf("해당 구좌가 없습니다.\n\n");
 }
+
 void PrintAll() {
 	int i;
 	printf("구좌내역\n");
