@@ -43,18 +43,13 @@ print("Sum is ", sum2)
 
 
 #lab 4-3
-
+#num1가 1부터 99일때 까지 num1/(num1+2) 의 합 구하기
 sum3 = 0
 num1 = 1
-num2 = num1 + 2
-num = num1 / num2
-while num2 < 100:
-	sum3 += num
+while num1 < 100:
+    sum += num1 / (num1+2)
 	num1 += 2
-	num2 = num1 + 2
-	continue
 print("Sum is " + format(sum3, '<10.4f'))
-
 
 
 
