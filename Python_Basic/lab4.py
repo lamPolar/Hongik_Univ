@@ -54,7 +54,7 @@ print("Sum is " + format(sum3, '<10.4f'))
 
 
 #lab 4-4
-#type으로 마름모꼴 그리기
+#type으로 마름모꼴 그리기 
 type = input("Enter the type: ")
 rows = eval(input("Enter the number of rows: "))
 line = 1
@@ -62,13 +62,11 @@ n = 1
 while line <= rows:
 	print(" " * (rows - line) + type * (line * 2 - 1) + " " * (rows - line))
 	line += 1
-	continue
-while line > rows:
+while line > 2*rows: # line의 마지막을 정해서 무한 루프 없애기
         if n <= rows:
                 print(" " * (line - rows)  + type * ((line - 2 * n) * 2 - 1) + " " * (line - rows))
                 line += 1
                 n += 1
-                continue
 
 
 #lab 4-5
