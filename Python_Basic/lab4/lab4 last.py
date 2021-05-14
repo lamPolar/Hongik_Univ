@@ -47,14 +47,14 @@ print("Sum is ", sum2)
 sum3 = 0
 num1 = 1
 while num1 < 100:
-    sum += num1 / (num1+2)
+    sum3 += num1 / (num1+2)
 	num1 += 2
 print("Sum is " + format(sum3, '<10.4f'))
 
 
 
 #lab 4-4
-
+#type으로 마름모꼴 그리기
 type = input("Enter the type: ")
 rows = eval(input("Enter the number of rows: "))
 line = 1
@@ -72,7 +72,7 @@ while line > rows:
 
 
 #lab 4-5
-
+#점점 작아지는 사각형 그림그리기
 import turtle
 x = -100
 y = 100
