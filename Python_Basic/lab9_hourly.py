@@ -1,4 +1,4 @@
-from lab9employee import Employee
+from lab9_employee import Employee
 
 #lab9 hourly employee class
 #employee를 상속한 시급제 직원 class

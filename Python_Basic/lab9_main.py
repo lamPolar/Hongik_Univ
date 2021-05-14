@@ -1,7 +1,7 @@
 #lab9-main
-from lab9hourly import hourlyEmployee
-from lab9hourly import monthlyEmployee
-from lab9employee import Employee
+from lab9_hourly import hourlyEmployee
+from lab9_hourly import monthlyEmployee
+from lab9_employee import Employee
 
 #class 상속
 def main():

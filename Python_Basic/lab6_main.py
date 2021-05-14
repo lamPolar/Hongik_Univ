@@ -1,5 +1,5 @@
 #lab6 main
-from lab6class import rectangular
+from lab6_class import rectangular
 
 def main():
 	rectangle1 = rectangular()
