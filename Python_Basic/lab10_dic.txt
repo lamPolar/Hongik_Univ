@@ -1,0 +1,12 @@
+hello   S:holo  F:bonjour       D:Hallo
+yes     S:si    F:Oui   D:Ja
+one     F:un    D:een   S:uno
+two     S:dos   F:deux  D:twee
+three   D:drie  S:tres  F:Trois
+red     F:rouge S:rojo  D:rood
+green   S:verde F:vert  D:groen
+blue    D:blauw S:azul  F:bleu
+black   D:zwart F:noir  S:negro
+
+
+
