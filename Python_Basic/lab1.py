@@ -23,3 +23,9 @@ print("Q2_2 is " + str(Q2_2), end = '\n\n')
 print("\uac10 \uc0ac", end = '\n\n')
 print("\ud76c \ub9dd")
 #감 사\n\n희 망
+
+#question 4
+print ("Hello world")
+a = 10
+b = a**2
+print (str(b))
