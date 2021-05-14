@@ -24,7 +24,7 @@ def main():
 	print("-------------------------------------------------")
 
 	print("Monthly Employee and Hourly Employee per month are same?")
-	if (hour_E == month_E) == True:
+	if hour_E.getNetpay() == month_E.getNetpay(): #solving again
 		print("Yes, two employees' salary are same")
 	else:
 		print("No, two emplowees' salary are not same")
